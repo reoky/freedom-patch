@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Using Bitlocker, you can encrypt your hard drive to protect your data against theieves and government. Be aware, that disk cryptography also provides data integrity. In other words, someone can't just write malware to your hard drive while you're away from it. Using disk encryption can protect you from many attacks, and should not be overlooked simply because you believe that you have nothing to lose.
+
+This tool gives you the option to alter system policy in order to allow the use of a USB Token or Password. If you choose to use a breakable USB token, a USB flash drive will be required to boot your computer, and you can wear the drive around your neck or keep it safe somewhere away from your computer. If you choose to use a password, you just need to remember the password.
+
+Note that this tool will only change the system's policy to ALLOW you to encrypt your disk, you must do this on your own after you've closed this wizard by right-clicking on your "C:\" drive and hitting the Bitlocker option.
+</value>
+  </data>
+  <data name="lbl_cortana_info.Text" xml:space="preserve">
+    <value>Microsoft Cortana allows Windows users to talk to their computers. You can ask Cortana questions, and use your voice to find information quickly, but doing so may present a significant privacy risk. If you aren't using this feature, you might consider disabling it.
+
+- May learn your voice, how you type, and how you write.
+- May sync this information to the cloud, and is not zero-knowledge, end-to-end encrypted.
+- May be searching through most of your stuff to find its answers.
+</value>
+  </data>
+  <data name="lbl_apps_info.Text" xml:space="preserve">
+    <value>Using the advanced wizard gives you the option to disable the Windows Store and related title-based applications entirely. Understand that any apps that you've downloaded through the Windows Store, and all of the metro-ui (tile apps that you see in your start menu), including the stock apps like Weather, Photos, XBOX, etc, will be disabled and hidden from view.
+ 
+On the other hand, using the Windows Store offers a way to install software in a controlled fashion, you might find this useful, but this comes with some privacy risks:
+
+- May keep a log of every app you've installed
+- May update apps in the background with or without your knowledge
+- May associate your real identity with the types of software you use
+- May connect to Microsoft a lot, and the app devs themselves.
+- May track your software usage habits for analytic reasons.
+- May leave a digital trail in the cloud that is not zero-knowledge, end-to-end encrypted.
+</value>
+  </data>
+  <data name="lbl_update_info.Text" xml:space="preserve">
+    <value>Windows Update allows your computer to receive important updates and security patches from Microsoft. You can turn this feature off, but your computer will no longer be able to receive updates.
+
+Only disable this feature if you know what you're doing, can't stand Microsoft, and want to stop subscribing to Windows updates. (Also consider trying GNU Linux if you feel this strongly)
+
+- May connect to Microsoft to download software in the background.
+- May do this without your knowledge.
+- May be restarting your computer randomly.</value>
+  </data>
+  <data name="lbl_edge_info.Text" xml:space="preserve">
+    <value>Windows comes with a new browser called Edge. Do you want to turn on DoNotTrack, disable the phishing filter, and disable page prediction?
+
+- May be sending URLs to Microsoft for analysis
+- May be using a prediction service to guess what you'll click on next.
+
+
+What do you want to do?</value>
+  </data>
+  <data name="lbl_onedrive_info.Text" xml:space="preserve">
+    <value>One Drive is a cloud storage service that comes with Windows 10. When signed into One Drive, your documents, music, and photos are uploaded to the cloud automatically. You might find this useful, but it harms your privacy when you store all your stuff in the cloud without proper protection. For example, a simple warrent may be all that is required to obtain these files, and they might be searched in secret by certain three letter agencies, and you would probably never know.
+
+- May expose your data to others with or without your knowledge
+- May sync your stuff to the cloud
+- May not be zero-knowledge end-to-end encrypted in the cloud.
+
+
+What do you want to do?</value>
+  </data>
+  <data name="lbl_account_info.Text" xml:space="preserve">
+    <value>Your Microsoft account can be used to sign into Windows. If you've used the Windows Store, Windows may have automatically linked your Microsoft account with your local Windows account. Every time you sign into Windows, a web request has to be made to Microsoft to verify your credentials. Microsoft, and potentially any other number of people, could know when you're using your computer.
+
+- May be logging when you log in.
+- May be collecting location/locale. (Even just a source adder would be enough)
+- May not be properly encrypted. (Microsoft employees)
+- May be linked with your Advertising ID.
+
+What say you?</value>
+  </data>
+  <data name="lbl_ss_info.Text" xml:space="preserve">
+    <value>Smart Screen is designed to protect Windows users by verifying the signatures of programs. When you open programs, the name and signature of the file is sent to Microsoft. Disabling Smart Screen is a Security-Privacy tradeoff. On one hand, Microsoft won't be able to see what programs you're running or when. On the other hand, programs can't be verified before they are run. If you have a good antivirus, your antivirus is probably verifying the signatures of progams as well.
+
+- May be letting Microsoft see what programs you're running and when.
+- May tell Microsoft where you got the program.
+</value>
+  </data>
+  <data name="lbl_defender_info.Text" xml:space="preserve">
+    <value>Windows Defender is the anti-malware service that comes installed with Windows. It works like most other antivirus products, but further increases the data going to Microsoft. If you have another antivirus product, or if you know what you're doing, you can disable Windows Defender here.
+
+- May be sending samples of your programs to Microsoft. (Auto Sample Submission)
+- May be generating signatures for programs to send to the cloud. (Cloud-based Protection)
+
+What do you want to do?
+</value>
+  </data>
+  <data name="lbl_ad_info.Text" xml:space="preserve">
+    <value>Microsoft Windows includes an advertising subsystem that will generate a unique advertising ID for each Windows installation. The ID gets re-rolled when the subsystem is stopped and started, but it provides another way to target ads at computer users.
+
+- May associate your computer with a unique identifier
+- May use that identifier to target ads at this computer's users.
+</value>
+  </data>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>0.0.0.0 a.ads2.msads.net
+0.0.0.0 adnexus.net
+0.0.0.0 aidps.atdmt.com
+0.0.0.0 a-msedge.net
+0.0.0.0 az361816.vo.msecnd.net
+0.0.0.0 az512334.vo.msecnd.net
+0.0.0.0 b.ads1.msn.com
+0.0.0.0 b.ads2.msads.net
+0.0.0.0 c.atdmt.com
+0.0.0.0 cdn.atdmt.com
+0.0.0.0 cds26.ams9.msecn.net
+0.0.0.0 c.msn.com
+0.0.0.0 db3aqu.atdmt.com
+0.0.0.0 ec.atdmt.com
+0.0.0.0 feedback.microsoft-hohm.com
+0.0.0.0 flex.msn.com
+0.0.0.0 g.msn.com
+0.0.0.0 h1.msn.com
+0.0.0.0 lb1.www.ms.akadns.net
+0.0.0.0 live.rads.msn.com
+0.0.0.0 m.adnxs.com
+0.0.0.0 msedge.net
+0.0.0.0 msnbot-65-55-108-23.search.msn.com
+0.0.0.0 msntest.serving-sys.com
+0.0.0.0 preview.msn.com
+0.0.0.0 reports.wes.df.telemetry.microsoft.com
+0.0.0.0 schemas.microsoft.akadns.net
+0.0.0.0 secure.flashtalking.com
+0.0.0.0 settings-win.data.microsoft.com
+0.0.0.0 sO.2mdn.net
+0.0.0.0 statsfe2.ws.microsoft.com
+0.0.0.0 telemetry.appex.bing.net:443
+0.0.0.0 wes.df.telemetry.microsoft.com
+</value>
+  </data>
+  <data name="lbl_network_info.Text" xml:space="preserve">
+    <value>This wizard can alter your hosts file to block the Microsoft vortex/telemetry servers. It can also configure your machine to block advertising servers, well-known malware stanging servers.
+
+
+It's your choice:
+</value>
+  </data>
+</root>
